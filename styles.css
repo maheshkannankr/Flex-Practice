@@ -1,0 +1,41 @@
+* {
+  text-align: center;
+}
+
+header section aside footer {
+  margin: 0;
+
+  border: 1px solid #000;
+}
+header {
+  padding: 20px;
+  background-color: purple;
+  border: 1px solid #000;
+}
+.menu {
+  padding: 20px;
+  background-color: red;
+  border: 1px solid #000;
+  flex-basis: 200px;
+}
+.content {
+  padding: 20px;
+  background-color: royalblue;
+  border: 1px solid #000;
+  flex-grow: 1;
+}
+aside {
+  padding: 20px;
+  background-color: seagreen;
+  border: 1px solid #000;
+  flex-basis: 200px;
+}
+footer {
+  padding: 20px;
+  background-color: yellowgreen;
+  border: 1px solid #000;
+}
+.flex-container {
+  display: flex;
+  height: 400px;
+}
